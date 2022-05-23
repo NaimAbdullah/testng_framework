@@ -17,7 +17,7 @@ public class _LinkedIn extends Base{
         driver.get("https://www.linkedin.com/home");
 
         credentials.setUsername("Naim");
-        credentials.setPassword("13");
+        credentials.setPassword("123");
 
         WebElement usernameBox = driver.findElement(By.id("session_key"));
         usernameBox.sendKeys(credentials.getUsername());
