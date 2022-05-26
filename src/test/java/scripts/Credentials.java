@@ -11,7 +11,7 @@ public class Credentials {
     }
 
     public void setUsername(String username) {
-        if (username.equals("Naim")) this.username = "nicknaker5@gmail.com";
+        if (username.equals("Naim")) this.username = "";
         else throw new RuntimeException("Wrong Admin Username!");
 
     }
