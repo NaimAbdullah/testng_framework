@@ -4,6 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import pages.TGApplicationPage;
 
 public class _02_TechGlobalTest extends Base{
     /*
@@ -11,14 +12,13 @@ public class _02_TechGlobalTest extends Base{
     2. Validate the heading1 is displayed and the text for it is ="Application Form"
      */
 
-
     @Test(description = "TC123: Validate Application form heading")
     public void testApplicationFormHeading(){
         driver.get("https://www.techglobalschool.com/apply-now");
 
-        WebElement heading1 = driver.findElement(By.xpath("//div[@id='comp-kh9s3kyz3']//span/span"));
+//        WebElement heading1 = driver.findElement(By.xpath("//div[@id='comp-kh9s3kyz3']//span/span"));
 
-        Assert.assertTrue(heading1.isDisplayed());
-        Assert.assertEquals(heading1.getText(), "Application Form"); //fails
+        Assert.assertTrue(tgApplicationPage.heading1.isDisplayed());
+        Assert.assertEquals(tgApplicationPage.heading1.getText(), "Application Form"); //fails
     }
 }
