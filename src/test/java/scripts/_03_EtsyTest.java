@@ -82,7 +82,7 @@ public class _03_EtsyTest extends Base{
         driver.get("https://www.etsy.com/");
 
         String[] expectedTexts = {
-                "Father's Day Gifts",
+                "Shop Home Sales!",
                 "Jewelry & Accessories",
                 "Clothing & Shoes",
                 "Home & Living",
@@ -93,7 +93,7 @@ public class _03_EtsyTest extends Base{
                 "Gifts & Gift Cards"};
 
         for (int i = 0; i < 9; i++) {
-            Assert.assertEquals(etsySearchPage.mainHeaderLinks.get(i).getText(), expectedTexts[i]);
+            Assert.assertEquals(etsySearchPage.mainHeaderLinks.get(i).getText(), expectedTexts[i], "The expected text is NOT displayed");
         }
 
     }
