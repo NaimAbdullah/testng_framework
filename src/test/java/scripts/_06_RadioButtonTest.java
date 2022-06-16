@@ -20,27 +20,27 @@ public class _06_RadioButtonTest extends Base{
         driver.get("https://www.facebook.com/");
         Waiter.pause(2);
 
-        facebookPage.createNewAccountLink.click();
+        faceBookPage.createNewAccountLink.click();
         Waiter.pause(2);
 
-        for (WebElement element : facebookPage.genderRadioButtons) {
+        for (WebElement element : faceBookPage.genderRadioButtons) {
             softAssert.assertTrue(element.isDisplayed(), "Element is NOT displayed");
             softAssert.assertTrue(element.isEnabled(), "Element is NOT enabled");
             softAssert.assertFalse(element.isSelected(), "Element IS selected");
         }
 
-        facebookPage.genderRadioButtons.get(0).click();
+        faceBookPage.genderRadioButtons.get(0).click();
         Waiter.pause(2);
-        Assert.assertTrue(facebookPage.genderRadioButtons.get(0).isSelected());
+        Assert.assertTrue(faceBookPage.genderRadioButtons.get(0).isSelected());
 
-        facebookPage.genderRadioButtons.get(1).click();
+        faceBookPage.genderRadioButtons.get(1).click();
         Waiter.pause(2);
-        Assert.assertTrue(facebookPage.genderRadioButtons.get(1).isSelected());
-        Assert.assertFalse(facebookPage.genderRadioButtons.get(0).isSelected());
+        Assert.assertTrue(faceBookPage.genderRadioButtons.get(1).isSelected());
+        Assert.assertFalse(faceBookPage.genderRadioButtons.get(0).isSelected());
 
-        facebookPage.genderRadioButtons.get(2).click();
+        faceBookPage.genderRadioButtons.get(2).click();
         Waiter.pause(2);
-        Assert.assertTrue(facebookPage.genderRadioButtons.get(2).isSelected());
-        Assert.assertFalse(facebookPage.genderRadioButtons.get(1).isSelected());
+        Assert.assertTrue(faceBookPage.genderRadioButtons.get(2).isSelected());
+        Assert.assertFalse(faceBookPage.genderRadioButtons.get(1).isSelected());
     }
 }

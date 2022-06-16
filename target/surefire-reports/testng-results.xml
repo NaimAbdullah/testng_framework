@@ -2,86 +2,86 @@
 <testng-results ignored="3" total="9" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-05-29T15:45:34 CDT" name="Smoke" finished-at="2022-05-29T15:45:53 CDT" duration-ms="18684">
+  <suite started-at="2022-06-11T14:50:10 CDT" name="Smoke" finished-at="2022-06-11T14:50:29 CDT" duration-ms="19222">
     <groups>
     </groups>
-    <test started-at="2022-05-29T15:45:34 CDT" name="Critical Functionalities" finished-at="2022-05-29T15:45:53 CDT" duration-ms="18684">
+    <test started-at="2022-06-11T14:50:10 CDT" name="Critical Functionalities" finished-at="2022-06-11T14:50:29 CDT" duration-ms="19222">
       <class name="scripts._03_EtsyTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:scripts._03_EtsyTest@6fb0d3ed]" started-at="2022-05-29T15:45:43 CDT" name="setup" finished-at="2022-05-29T15:45:44 CDT" duration-ms="1212" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:scripts._03_EtsyTest@3b94d659]" started-at="2022-06-11T14:50:19 CDT" name="setup" finished-at="2022-06-11T14:50:20 CDT" duration-ms="928" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testEtsyLogo()[pri:1, instance:scripts._03_EtsyTest@6fb0d3ed]" started-at="2022-05-29T15:45:44 CDT" name="testEtsyLogo" finished-at="2022-05-29T15:45:46 CDT" duration-ms="1531" status="PASS">
+        <test-method signature="testEtsyLogo()[pri:1, instance:scripts._03_EtsyTest@3b94d659]" started-at="2022-06-11T14:50:20 CDT" name="testEtsyLogo" finished-at="2022-06-11T14:50:22 CDT" duration-ms="1983" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testEtsyLogo -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:scripts._03_EtsyTest@6fb0d3ed]" started-at="2022-05-29T15:45:46 CDT" name="teardown" finished-at="2022-05-29T15:45:46 CDT" duration-ms="126" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:scripts._03_EtsyTest@3b94d659]" started-at="2022-06-11T14:50:22 CDT" name="teardown" finished-at="2022-06-11T14:50:22 CDT" duration-ms="95" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:scripts._03_EtsyTest@6fb0d3ed]" started-at="2022-05-29T15:45:46 CDT" name="setup" finished-at="2022-05-29T15:45:47 CDT" duration-ms="990" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:scripts._03_EtsyTest@3b94d659]" started-at="2022-06-11T14:50:22 CDT" name="setup" finished-at="2022-06-11T14:50:23 CDT" duration-ms="863" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testEtsySearch()[pri:3, instance:scripts._03_EtsyTest@6fb0d3ed]" started-at="2022-05-29T15:45:47 CDT" name="testEtsySearch" finished-at="2022-05-29T15:45:48 CDT" duration-ms="1591" status="PASS">
+        <test-method signature="testEtsySearch()[pri:3, instance:scripts._03_EtsyTest@3b94d659]" started-at="2022-06-11T14:50:23 CDT" name="testEtsySearch" finished-at="2022-06-11T14:50:25 CDT" duration-ms="2026" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testEtsySearch -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:scripts._03_EtsyTest@6fb0d3ed]" started-at="2022-05-29T15:45:48 CDT" name="teardown" finished-at="2022-05-29T15:45:49 CDT" duration-ms="109" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:scripts._03_EtsyTest@3b94d659]" started-at="2022-06-11T14:50:25 CDT" name="teardown" finished-at="2022-06-11T14:50:25 CDT" duration-ms="168" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:scripts._03_EtsyTest@6fb0d3ed]" started-at="2022-05-29T15:45:49 CDT" name="setup" finished-at="2022-05-29T15:45:50 CDT" duration-ms="1045" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:scripts._03_EtsyTest@3b94d659]" started-at="2022-06-11T14:50:25 CDT" name="setup" finished-at="2022-06-11T14:50:26 CDT" duration-ms="840" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testEtsySearchResult()[pri:2, instance:scripts._03_EtsyTest@6fb0d3ed]" started-at="2022-05-29T15:45:50 CDT" name="testEtsySearchResult" finished-at="2022-05-29T15:45:53 CDT" depends-on-methods="scripts._03_EtsyTest.testEtsySearch" duration-ms="2998" status="PASS">
+        <test-method signature="testEtsySearchResult()[pri:2, instance:scripts._03_EtsyTest@3b94d659]" started-at="2022-06-11T14:50:26 CDT" name="testEtsySearchResult" finished-at="2022-06-11T14:50:29 CDT" depends-on-methods="scripts._03_EtsyTest.testEtsySearch" duration-ms="3187" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testEtsySearchResult -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:scripts._03_EtsyTest@6fb0d3ed]" started-at="2022-05-29T15:45:53 CDT" name="teardown" finished-at="2022-05-29T15:45:53 CDT" duration-ms="145" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:scripts._03_EtsyTest@3b94d659]" started-at="2022-06-11T14:50:29 CDT" name="teardown" finished-at="2022-06-11T14:50:29 CDT" duration-ms="168" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- scripts._03_EtsyTest -->
       <class name="scripts._02_TechGlobalTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:scripts._02_TechGlobalTest@10d59286]" started-at="2022-05-29T15:45:37 CDT" name="setup" finished-at="2022-05-29T15:45:38 CDT" duration-ms="1252" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:scripts._02_TechGlobalTest@5123a213]" started-at="2022-06-11T14:50:14 CDT" name="setup" finished-at="2022-06-11T14:50:15 CDT" duration-ms="1001" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testApplicationFormHeading()[pri:0, instance:scripts._02_TechGlobalTest@10d59286]" started-at="2022-05-29T15:45:38 CDT" name="testApplicationFormHeading" description="TC123: Validate Application form heading" finished-at="2022-05-29T15:45:39 CDT" duration-ms="558" status="PASS">
+        <test-method signature="testApplicationFormHeading()[pri:0, instance:scripts._02_TechGlobalTest@5123a213]" started-at="2022-06-11T14:50:15 CDT" name="testApplicationFormHeading" description="TC123: Validate Application form heading" finished-at="2022-06-11T14:50:15 CDT" duration-ms="678" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testApplicationFormHeading -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:scripts._02_TechGlobalTest@10d59286]" started-at="2022-05-29T15:45:39 CDT" name="teardown" finished-at="2022-05-29T15:45:39 CDT" duration-ms="100" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:scripts._02_TechGlobalTest@5123a213]" started-at="2022-06-11T14:50:15 CDT" name="teardown" finished-at="2022-06-11T14:50:15 CDT" duration-ms="90" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- scripts._02_TechGlobalTest -->
       <class name="scripts._01_AppleTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:scripts._01_AppleTest@5fdba6f9]" started-at="2022-05-29T15:45:34 CDT" name="setup" finished-at="2022-05-29T15:45:36 CDT" duration-ms="1982" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:scripts._01_AppleTest@6dde5c8c]" started-at="2022-06-11T14:50:10 CDT" name="setup" finished-at="2022-06-11T14:50:12 CDT" duration-ms="2581" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testAppleTitle()[pri:1, instance:scripts._01_AppleTest@5fdba6f9]" started-at="2022-05-29T15:45:36 CDT" name="testAppleTitle" finished-at="2022-05-29T15:45:37 CDT" duration-ms="924" status="PASS">
+        <test-method signature="testAppleTitle()[pri:1, instance:scripts._01_AppleTest@6dde5c8c]" started-at="2022-06-11T14:50:12 CDT" name="testAppleTitle" finished-at="2022-06-11T14:50:13 CDT" duration-ms="1063" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAppleTitle -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:scripts._01_AppleTest@5fdba6f9]" started-at="2022-05-29T15:45:37 CDT" name="teardown" finished-at="2022-05-29T15:45:37 CDT" duration-ms="112" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:scripts._01_AppleTest@6dde5c8c]" started-at="2022-06-11T14:50:13 CDT" name="teardown" finished-at="2022-06-11T14:50:14 CDT" duration-ms="125" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- scripts._01_AppleTest -->
       <class name="scripts._04_GoogleTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:scripts._04_GoogleTest@fe18270]" started-at="2022-05-29T15:45:39 CDT" name="setup" finished-at="2022-05-29T15:45:40 CDT" duration-ms="1215" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:scripts._04_GoogleTest@52525845]" started-at="2022-06-11T14:50:15 CDT" name="setup" finished-at="2022-06-11T14:50:16 CDT" duration-ms="880" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testGoogleSearchResults()[pri:1, instance:scripts._04_GoogleTest@fe18270]" started-at="2022-05-29T15:45:40 CDT" name="testGoogleSearchResults" description="TC765: Validate Google search" finished-at="2022-05-29T15:45:43 CDT" duration-ms="2663" status="PASS">
+        <test-method signature="testGoogleSearchResults()[pri:1, instance:scripts._04_GoogleTest@52525845]" started-at="2022-06-11T14:50:16 CDT" name="testGoogleSearchResults" description="TC765: Validate Google search" finished-at="2022-06-11T14:50:19 CDT" duration-ms="2427" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGoogleSearchResults -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:scripts._04_GoogleTest@fe18270]" started-at="2022-05-29T15:45:43 CDT" name="teardown" finished-at="2022-05-29T15:45:43 CDT" duration-ms="102" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:scripts._04_GoogleTest@52525845]" started-at="2022-06-11T14:50:19 CDT" name="teardown" finished-at="2022-06-11T14:50:19 CDT" duration-ms="92" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

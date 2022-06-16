@@ -1,2 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="All Test Suite"><test verbose="2" preserve-order="true" name="/Users/naim/IdeaProjects/testng_framework/src/test/java/testng_learning/_02_Priority_Keyword.java"><classes><class name="testng_learning._02_Priority_Keyword"><methods><include name="login"/><include name="test"/><include name="logout"/></methods></class></classes></test></suite>

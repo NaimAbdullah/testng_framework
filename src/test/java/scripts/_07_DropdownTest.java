@@ -26,13 +26,13 @@ public class _07_DropdownTest extends Base{
     public void testUnsecurePasswordErrorMessage(){
         driver.get("https://www.facebook.com/");
 
-        facebookPage.createNewAccountLink.click();
+        faceBookPage.createNewAccountLink.click();
 
-        facebookPage.firstNameInputBox.sendKeys("John");
-        facebookPage.lastNameInputBox.sendKeys("Doe");
-        facebookPage.emailOrPhoneInputBox.sendKeys("johndoe55555@gmail.com");
-        facebookPage.emailReEnterInputBox.sendKeys("johndoe55555@gmail.com");
-        facebookPage.passwordInputBox.sendKeys("abcd1234");
+        faceBookPage.firstNameInputBox.sendKeys("John");
+        faceBookPage.lastNameInputBox.sendKeys("Doe");
+        faceBookPage.emailOrPhoneInputBox.sendKeys("johndoe55555@gmail.com");
+        faceBookPage.emailReEnterInputBox.sendKeys("johndoe55555@gmail.com");
+        faceBookPage.passwordInputBox.sendKeys("abcd1234");
 
         // To be able to select an option from dropdown we need an instance of Select class
         //Select monthSelector = new Select(facebookPage.monthDropdown);
@@ -40,25 +40,25 @@ public class _07_DropdownTest extends Base{
         //monthSelector.selectByVisibleText("Apr"); // Selection by visible text
         //monthSelector.selectByIndex(3); // Selection by index
 
-        DropdownHandler.selectOptionByIndex(facebookPage.monthDropdown, 3);
+        DropdownHandler.selectOptionByIndex(faceBookPage.monthDropdown, 3);
 
         // Select day as 1
         //Select daySelector = new Select(facebookPage.dayDropdown);
         //daySelector.selectByValue("1");
-        DropdownHandler.selectOptionByVisibleText(facebookPage.dayDropdown, "1");
+        DropdownHandler.selectOptionByVisibleText(faceBookPage.dayDropdown, "1");
 
         // Select year as 1990
         //Select yearSelector = new Select(facebookPage.yearDropdown);
         //yearSelector.selectByValue("1990");
-        DropdownHandler.selectOptionByValue(facebookPage.yearDropdown, "1990");
+        DropdownHandler.selectOptionByValue(faceBookPage.yearDropdown, "1990");
 
-        facebookPage.genderRadioButtons.get(1).click();
-        facebookPage.signUpButton.click();
+        faceBookPage.genderRadioButtons.get(1).click();
+        faceBookPage.signUpButton.click();
 
         String expectedMessage = "Please choose a more secure password. It should be longer than 6 characters, unique to you, and difficult for others to guess.";
 
-        Waiter.waitUntilTextToBePresentInElement(driver, 60, facebookPage.errorMessage, expectedMessage);
-        Assert.assertEquals(facebookPage.errorMessage.getText(), expectedMessage, "Error message has issues");
+        Waiter.waitUntilTextToBePresentInElement(driver, 60, faceBookPage.errorMessage, expectedMessage);
+        Assert.assertEquals(faceBookPage.errorMessage.getText(), expectedMessage, "Error message has issues");
     }
 
 

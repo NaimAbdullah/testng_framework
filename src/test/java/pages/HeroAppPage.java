@@ -36,6 +36,42 @@ public class HeroAppPage {
     @FindBy(id = "mce_0_ifr")
     public WebElement innerIFrame;
 
+    @FindBy(css = "#content a")
+    public WebElement clickHere;
+
+    @FindBy(xpath = "//h3")
+    public WebElement newWindow;
+
+    @FindBy(xpath = "//h3")
+    public WebElement openingHeading;
+
+    @FindBy(id = "file-upload")
+    public WebElement chooseFileInput;
+
+    @FindBy(id = "file-submit")
+    public WebElement uploadFileButton;
+
+    @FindBy(xpath = "//h3")
+    public WebElement fileUploadedH3;
+
+    @FindBy(id = "uploaded-files")
+    public WebElement uploadedFileText;
+
+    @FindBy(linkText = "myFileNaim2.xls")
+    public WebElement downloadFileLink;
+
+    @FindBy(css = "#table1 th")
+    public List<WebElement> headers;
+
+    @FindBy(xpath = "(//table[@id='table1']//tr)[2]/td")
+    public List<WebElement> firstRow;
+
+    @FindBy(css = "#table1>tbody>tr td:nth-child(2)")
+    public List<WebElement> table1FirstNames;
+
+    @FindBy(css = "#table1 td")
+    public List<WebElement> allCells;
+
     public void clickOnLink(String linkText){
         for (WebElement link : links) {
             if(link.getText().equals(linkText)){
@@ -54,5 +90,13 @@ public class HeroAppPage {
         }
     }
 
+    @FindBy(id = "username")
+    public WebElement username;
+
+    @FindBy(id = "password")
+    public WebElement password;
+
+    @FindBy(css = ".radius")
+    public WebElement loginButton;
 
 }

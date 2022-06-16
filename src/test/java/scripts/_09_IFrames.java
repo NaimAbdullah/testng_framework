@@ -27,7 +27,7 @@ public class _09_IFrames extends Base {
         Waiter.pause(2);
 
         //switch to inner html - iframe
-        //driver.switchTo().frame(0);
+//        driver.switchTo().frame(0);
         //driver.switchTo().frame("mce_0_ifr");
         driver.switchTo().frame(heroAppPage.innerIFrame);
 
@@ -37,7 +37,7 @@ public class _09_IFrames extends Base {
         Assert.assertEquals(heroAppPage.contentBox.getText(), "Hello World");
 
         //Switch back to parent html - outer
-        //driver.switchTo().parentFrame();
+//        driver.switchTo().parentFrame();
         driver.switchTo().defaultContent();
         Assert.assertEquals(heroAppPage.iFrameHeading3.getText(), "An iFrame containing the TinyMCE WYSIWYG Editor");
     }

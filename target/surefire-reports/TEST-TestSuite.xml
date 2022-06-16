@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="18.927" tests="6" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="19.408" tests="6" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="18.0.1+0"/>
@@ -61,10 +61,10 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase name="testAppleTitle" classname="scripts._01_AppleTest" time="0.936"/>
-  <testcase name="testApplicationFormHeading" classname="scripts._02_TechGlobalTest" time="0.558"/>
-  <testcase name="testGoogleSearchResults" classname="scripts._04_GoogleTest" time="2.663"/>
-  <testcase name="testEtsyLogo" classname="scripts._03_EtsyTest" time="1.531"/>
-  <testcase name="testEtsySearch" classname="scripts._03_EtsyTest" time="1.591"/>
-  <testcase name="testEtsySearchResult" classname="scripts._03_EtsyTest" time="2.998"/>
+  <testcase name="testAppleTitle" classname="scripts._01_AppleTest" time="1.085"/>
+  <testcase name="testApplicationFormHeading" classname="scripts._02_TechGlobalTest" time="0.679"/>
+  <testcase name="testGoogleSearchResults" classname="scripts._04_GoogleTest" time="2.426"/>
+  <testcase name="testEtsyLogo" classname="scripts._03_EtsyTest" time="1.984"/>
+  <testcase name="testEtsySearch" classname="scripts._03_EtsyTest" time="2.025"/>
+  <testcase name="testEtsySearchResult" classname="scripts._03_EtsyTest" time="3.188"/>
 </testsuite>
